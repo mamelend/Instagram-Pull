@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQ6-kN-g9g">
+                                <rect key="frame" x="16" y="20" width="42" height="30"/>
+                                <state key="normal" title="Log In"/>
+                                <connections>
+                                    <action selector="logInButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ne7-FI-BoV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ud2-HU-22P">
+                                <rect key="frame" x="249" y="20" width="55" height="30"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="logOutButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VEC-Eg-Fl7"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marko_kovacevic-dbc-headshots-2015-10-23-square-5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q4h-iD-gHi">
+                                <rect key="frame" x="-4" y="120" width="328" height="328"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Q4h-iD-gHi" secondAttribute="height" multiplier="1:1" id="I1W-Y2-9LH"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuk-id-cFI">
+                                <rect key="frame" x="134" y="538" width="53" height="30"/>
+                                <state key="normal" title="Refresh"/>
+                                <connections>
+                                    <action selector="refreshButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SGV-xH-qef"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWk-3Q-Sa2">
+                                <rect key="frame" x="88" y="456" width="144" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Mua-db-qsD"/>
+                                    <constraint firstAttribute="width" constant="144" id="cTh-gy-Q6N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vuk-id-cFI" firstAttribute="top" secondItem="GWk-3Q-Sa2" secondAttribute="bottom" constant="16" id="3ZN-ga-hec"/>
+                            <constraint firstItem="vuk-id-cFI" firstAttribute="centerX" secondItem="Q4h-iD-gHi" secondAttribute="centerX" id="8SB-Ee-ASq"/>
+                            <constraint firstItem="Q4h-iD-gHi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="942-GC-cIp"/>
+                            <constraint firstItem="Ud2-HU-22P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="D4E-J0-Oh5"/>
+                            <constraint firstItem="GWk-3Q-Sa2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EpB-VV-Uqg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vuk-id-cFI" secondAttribute="bottom" id="ErQ-lp-Fqv"/>
+                            <constraint firstItem="XQ6-kN-g9g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="I40-q8-Ucn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q4h-iD-gHi" secondAttribute="trailing" constant="-20" id="cFM-pk-cs0"/>
+                            <constraint firstItem="Q4h-iD-gHi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="crg-wR-giv"/>
+                            <constraint firstItem="XQ6-kN-g9g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fCN-TR-zXO"/>
+                            <constraint firstItem="Ud2-HU-22P" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="j72-pq-tKq"/>
+                            <constraint firstItem="Q4h-iD-gHi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nuk-Si-Ga2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Q4h-iD-gHi" id="qDm-Bu-QOC"/>
+                        <outlet property="likesLabel" destination="GWk-3Q-Sa2" id="N0H-6x-ZhF"/>
+                        <outlet property="logInButton" destination="XQ6-kN-g9g" id="uYx-Hn-6rW"/>
+                        <outlet property="logOutButton" destination="Ud2-HU-22P" id="oIr-gF-DFY"/>
+                        <outlet property="refreshButton" destination="vuk-id-cFI" id="9c6-AK-Zmi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="346"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="marko_kovacevic-dbc-headshots-2015-10-23-square-5.jpg" width="800" height="800"/>
+    </resources>
+</document>

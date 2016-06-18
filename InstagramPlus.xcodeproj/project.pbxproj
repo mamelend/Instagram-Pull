@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BCAA801D0F68C400C1FEBA /* marko_kovacevic-dbc-headshots-2015-10-23-square-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26BCAA7F1D0F68C400C1FEBA /* marko_kovacevic-dbc-headshots-2015-10-23-square-5.jpg */; };
+		26C7359F1D08C4E2007CFF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C7359E1D08C4E2007CFF23 /* main.m */; };
+		26C735A21D08C4E2007CFF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C735A11D08C4E2007CFF23 /* AppDelegate.m */; };
+		26C735A51D08C4E2007CFF23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C735A41D08C4E2007CFF23 /* ViewController.m */; };
+		26C735A81D08C4E2007CFF23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C735A61D08C4E2007CFF23 /* Main.storyboard */; };
+		26C735AA1D08C4E2007CFF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C735A91D08C4E2007CFF23 /* Assets.xcassets */; };
+		26C735AD1D08C4E2007CFF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C735AB1D08C4E2007CFF23 /* LaunchScreen.storyboard */; };
+		D4FDB3E2296A0532FDCE472C /* libPods-InstagramPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D57728AFD37E155DF3BB8F1 /* libPods-InstagramPlus.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26BCAA7F1D0F68C400C1FEBA /* marko_kovacevic-dbc-headshots-2015-10-23-square-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "marko_kovacevic-dbc-headshots-2015-10-23-square-5.jpg"; sourceTree = "<group>"; };
+		26C7359A1D08C4E2007CFF23 /* InstagramPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C7359E1D08C4E2007CFF23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26C735A01D08C4E2007CFF23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26C735A11D08C4E2007CFF23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26C735A31D08C4E2007CFF23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26C735A41D08C4E2007CFF23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26C735A71D08C4E2007CFF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26C735A91D08C4E2007CFF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C735AC1D08C4E2007CFF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26C735AE1D08C4E2007CFF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D57728AFD37E155DF3BB8F1 /* libPods-InstagramPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstagramPlus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		850C04CE81B1F3196629B42B /* Pods-InstagramPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramPlus/Pods-InstagramPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		FC908EE72B2774100D5667DC /* Pods-InstagramPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramPlus/Pods-InstagramPlus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C735971D08C4E2007CFF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FDB3E2296A0532FDCE472C /* libPods-InstagramPlus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C735911D08C4E2007CFF23 = {
+			isa = PBXGroup;
+			children = (
+				26C7359C1D08C4E2007CFF23 /* InstagramPlus */,
+				26C7359B1D08C4E2007CFF23 /* Products */,
+				58BC8A7966695151B4EA6894 /* Pods */,
+				43DDD0BB93FA4A661E42375A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26C7359B1D08C4E2007CFF23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C7359A1D08C4E2007CFF23 /* InstagramPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C7359C1D08C4E2007CFF23 /* InstagramPlus */ = {
+			isa = PBXGroup;
+			children = (
+				26C735A01D08C4E2007CFF23 /* AppDelegate.h */,
+				26C735A11D08C4E2007CFF23 /* AppDelegate.m */,
+				26C735A31D08C4E2007CFF23 /* ViewController.h */,
+				26C735A41D08C4E2007CFF23 /* ViewController.m */,
+				26C735A61D08C4E2007CFF23 /* Main.storyboard */,
+				26C735A91D08C4E2007CFF23 /* Assets.xcassets */,
+				26C735AB1D08C4E2007CFF23 /* LaunchScreen.storyboard */,
+				26C735AE1D08C4E2007CFF23 /* Info.plist */,
+				26C7359D1D08C4E2007CFF23 /* Supporting Files */,
+			);
+			path = InstagramPlus;
+			sourceTree = "<group>";
+		};
+		26C7359D1D08C4E2007CFF23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26BCAA7F1D0F68C400C1FEBA /* marko_kovacevic-dbc-headshots-2015-10-23-square-5.jpg */,
+				26C7359E1D08C4E2007CFF23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43DDD0BB93FA4A661E42375A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D57728AFD37E155DF3BB8F1 /* libPods-InstagramPlus.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58BC8A7966695151B4EA6894 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				850C04CE81B1F3196629B42B /* Pods-InstagramPlus.debug.xcconfig */,
+				FC908EE72B2774100D5667DC /* Pods-InstagramPlus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C735991D08C4E2007CFF23 /* InstagramPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C735B11D08C4E2007CFF23 /* Build configuration list for PBXNativeTarget "InstagramPlus" */;
+			buildPhases = (
+				E4F1BABAC6374344AD0E987F /* 📦 Check Pods Manifest.lock */,
+				26C735961D08C4E2007CFF23 /* Sources */,
+				26C735971D08C4E2007CFF23 /* Frameworks */,
+				26C735981D08C4E2007CFF23 /* Resources */,
+				C5BB66E0ED639C8A4A47A1FF /* 📦 Embed Pods Frameworks */,
+				A4E6C5E78EAC5F6ABEFA2D00 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstagramPlus;
+			productName = InstagramPlus;
+			productReference = 26C7359A1D08C4E2007CFF23 /* InstagramPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C735921D08C4E2007CFF23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Miguel Melendez";
+				TargetAttributes = {
+					26C735991D08C4E2007CFF23 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6MNZPDBHKE;
+					};
+				};
+			};
+			buildConfigurationList = 26C735951D08C4E2007CFF23 /* Build configuration list for PBXProject "InstagramPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C735911D08C4E2007CFF23;
+			productRefGroup = 26C7359B1D08C4E2007CFF23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C735991D08C4E2007CFF23 /* InstagramPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C735981D08C4E2007CFF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C735AD1D08C4E2007CFF23 /* LaunchScreen.storyboard in Resources */,
+				26C735AA1D08C4E2007CFF23 /* Assets.xcassets in Resources */,
+				26C735A81D08C4E2007CFF23 /* Main.storyboard in Resources */,
+				26BCAA801D0F68C400C1FEBA /* marko_kovacevic-dbc-headshots-2015-10-23-square-5.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4E6C5E78EAC5F6ABEFA2D00 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramPlus/Pods-InstagramPlus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BB66E0ED639C8A4A47A1FF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramPlus/Pods-InstagramPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F1BABAC6374344AD0E987F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C735961D08C4E2007CFF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C735A51D08C4E2007CFF23 /* ViewController.m in Sources */,
+				26C735A21D08C4E2007CFF23 /* AppDelegate.m in Sources */,
+				26C7359F1D08C4E2007CFF23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26C735A61D08C4E2007CFF23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C735A71D08C4E2007CFF23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26C735AB1D08C4E2007CFF23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C735AC1D08C4E2007CFF23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26C735AF1D08C4E2007CFF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C735B01D08C4E2007CFF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C735B21D08C4E2007CFF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850C04CE81B1F3196629B42B /* Pods-InstagramPlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstagramPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmelendezcalero.InstagramPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26C735B31D08C4E2007CFF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC908EE72B2774100D5667DC /* Pods-InstagramPlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstagramPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmelendezcalero.InstagramPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C735951D08C4E2007CFF23 /* Build configuration list for PBXProject "InstagramPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C735AF1D08C4E2007CFF23 /* Debug */,
+				26C735B01D08C4E2007CFF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C735B11D08C4E2007CFF23 /* Build configuration list for PBXNativeTarget "InstagramPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C735B21D08C4E2007CFF23 /* Debug */,
+				26C735B31D08C4E2007CFF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26C735921D08C4E2007CFF23 /* Project object */;
+}
